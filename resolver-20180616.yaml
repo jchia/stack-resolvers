@@ -1,0 +1,26 @@
+resolver: nightly-2018-06-16
+name: resolver
+
+packages:
+- accelerate-1.2.0.0
+- accelerate-io-1.2.0.0
+- accelerate-llvm-1.2.0.0
+- accelerate-llvm-native-1.2.0.0
+- accelerate-llvm-ptx-1.2.0.0
+- accelerate-blas-0.2.0.0
+- bookkeeper-0.2.5
+- gtk3-0.14.9
+- HList-0.5.0.0
+- hprotoc-2.4.10
+- hsc2hs-0.68.3
+- pcap-0.4.5.2
+- protobuf-0.2.1.2
+- reactive-banana-1.2.0.0
+- sbv-7.8
+- type-level-sets-0.8.7.0
+- git: https://github.com/chrisdone/labels.git
+  commit: 076f6b2d4a34004c2f227d36f7c4d5afbccd6b59
+  subdirs: [labels]
+- git: https://github.com/jchia/haskell-cpython.git
+  commit: 16a12128eb0ec69956cb467462ce2ce08242c492
+- https://github.com/jchia/call-python-via-msgpack/archive/b0b025c024eeea4e84520c4c9c77e1937f445d00.zip
