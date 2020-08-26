@@ -1,0 +1,46 @@
+resolver: nightly-2020-08-26
+name: resolver
+
+packages:
+- accelerate-1.2.0.1
+- accelerate-blas-0.2.0.1
+- accelerate-io-1.2.0.0
+- accelerate-llvm-1.2.0.1
+- accelerate-llvm-native-1.2.0.1
+- accelerate-llvm-ptx-1.2.0.1
+- cairo-0.13.8.1
+- extensible-0.8
+- gio-0.13.8.1
+- glib-0.13.8.1
+- gtk-0.15.5
+- gtk2hs-buildtools-0.13.8.0
+- gtk3-0.15.5
+- HList-0.5.0.0
+- membership-0
+- pango-0.13.8.1
+- pcap-0.4.5.2
+- sbv-8.7
+- store-0.7.4
+- store-core-0.4.4.2
+- streaming-conduit-0.1.2.2
+- tcp-streams-1.0.1.1
+- th-utilities-0.2.4.0
+- vinyl-0.13.0
+- wire-streams-0.1.1.0
+- git: https://github.com/brendanhay/amazonka.git
+  commit: adf6afb09771d18ecb84bf1c7a2f00bce964c3c9
+  subdirs: [amazonka]
+- git: https://github.com/brendanhay/amazonka.git
+  commit: adf6afb09771d18ecb84bf1c7a2f00bce964c3c9
+  subdirs: [core]
+- git: https://github.com/jchia/call-python-via-msgpack
+  commit: 016ea5f886cbe99982917ba8c42c4042a870175c
+- git: https://github.com/jchia/haskell-cpython.git
+  commit: 16a12128eb0ec69956cb467462ce2ce08242c492
+- git: https://github.com/jchia/labels.git
+  commit: 076f6b2d4a34004c2f227d36f7c4d5afbccd6b59
+  subdirs: [labels]
+- git: https://github.com/jchia/mysql-haskell.git
+  commit: b01d9f518e3614c9ee5580e64d61400ed8ab5b39
+- git: https://github.com/jchia/network-house.git
+  commit: 84024e8df185d3b9d2bd00dc0090fc943ee2bf6a
