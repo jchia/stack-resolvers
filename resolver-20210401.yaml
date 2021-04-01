@@ -1,0 +1,27 @@
+resolver: lts-17.7
+name: resolver
+
+packages:
+- accelerate-1.3.0.0
+- accelerate-llvm-1.3.0.0
+- extensible-0.8.2
+- formatting-7.1.1
+- HList-0.5.0.0
+- incremental-0.3.1
+- membership-0.0.1
+- pcap-0.4.5.2
+- sbv-8.10
+- tcp-streams-1.0.1.1
+- wire-streams-0.1.1.0
+- git: https://github.com/polysemy-research/polysemy.git
+  commit: ade8826e1cb93f8ae17bcc877aab8c3f8540b756
+- git: https://github.com/brendanhay/amazonka.git
+  commit: adf6afb09771d18ecb84bf1c7a2f00bce964c3c9
+  subdirs: [amazonka]
+- git: https://github.com/brendanhay/amazonka.git
+  commit: adf6afb09771d18ecb84bf1c7a2f00bce964c3c9
+  subdirs: [core]
+- git: https://github.com/jchia/mysql-haskell.git
+  commit: b01d9f518e3614c9ee5580e64d61400ed8ab5b39
+- git: https://github.com/jchia/network-house.git
+  commit: 84024e8df185d3b9d2bd00dc0090fc943ee2bf6a
