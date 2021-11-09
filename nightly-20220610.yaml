@@ -1,0 +1,25 @@
+resolver: nightly-2022-06-10
+name: resolver
+
+packages:
+# - haxl-2.3.0.0
+# - HList-0.5.1.0
+- pcap-0.4.5.2
+- pontarius-xmpp-0.5.6.5
+- stringprep-1.0.0
+- git: https://github.com/brendanhay/amazonka.git
+  commit: 0ccede621e56fb6f240e4850e205cde82d0e4a4b
+  subdirs:
+  - lib/amazonka
+  - lib/amazonka-core
+  - lib/services/amazonka-s3
+  - lib/services/amazonka-sts
+- git: https://github.com/tweag/distributed-closure.git
+  commit: 0eaace06ad1e9d80d13287b4e3b1e03f314082ed
+- git: https://github.com/jchia/network-house.git
+  commit: 84024e8df185d3b9d2bd00dc0090fc943ee2bf6a
+- git: https://github.com/jchia/selda
+  commit: a2f451e62d05345417527bea8dcb6ceb40c0ac2e
+  subdirs:
+  - selda
+  - selda-sqlite
