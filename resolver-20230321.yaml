@@ -1,0 +1,17 @@
+resolver: lts-20.15
+name: resolver
+
+packages:
+- pcap-0.4.5.2
+- text-display-0.0.4.0
+- github: brendanhay/amazonka
+  commit: 0ccede621e56fb6f240e4850e205cde82d0e4a4b
+  subdirs:
+  - lib/amazonka
+  - lib/amazonka-core
+  - lib/services/amazonka-s3
+  - lib/services/amazonka-sts
+- github: tweag/distributed-closure
+  commit: 0eaace06ad1e9d80d13287b4e3b1e03f314082ed
+- github: jchia/network-house
+  commit: 84024e8df185d3b9d2bd00dc0090fc943ee2bf6a
