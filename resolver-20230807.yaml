@@ -1,0 +1,19 @@
+resolver: lts-20.26
+name: resolver
+
+packages:
+- amazonka-2.0
+- amazonka-core-2.0
+- amazonka-s3-2.0
+- amazonka-sso-2.0
+- amazonka-sts-2.0
+- crypton-0.33
+- flat-0.6
+- pcap-0.4.5.2
+- rate-limit-1.4.3
+- taffybar-4.0.1
+- text-display-0.0.5.0
+- github: tweag/distributed-closure
+  commit: 0eaace06ad1e9d80d13287b4e3b1e03f314082ed
+- github: jchia/network-house
+  commit: 84024e8df185d3b9d2bd00dc0090fc943ee2bf6a
