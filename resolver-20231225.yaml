@@ -1,0 +1,20 @@
+resolver: lts-22.3
+name: resolver
+
+packages:
+- ghc-source-gen-0.4.4.0
+- lzma-conduit-1.2.3
+- pcap-0.4.5.2
+- proto-lens-protoc-0.8.0.0
+- proto-lens-setup-0.4.0.7
+- taffybar-4.0.1
+- text-display-0.0.5.1
+- github: tweag/distributed-closure
+  commit: 0eaace06ad1e9d80d13287b4e3b1e03f314082ed
+- github: jchia/network-house
+  commit: 02f27d49e94c2a8c482eda53c4f3a8b00f6e8824
+- github: jchia/selda
+  commit: d5d854b67996dd7bad5af05c3c3801e257bfd7e7
+  subdirs:
+  - selda
+  - selda-sqlite
