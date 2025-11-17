@@ -1,0 +1,28 @@
+resolver: lts-24.20
+name: resolver
+
+packages:
+- amazonka-2.0@sha256:3481da2fda6b210d15d41c1db7a588adf68123cfb7ea3882797a6230003259db
+- amazonka-core-2.0@sha256:9bceea1a8aaa5159b0ec2dd7d103961298bccda8a2c4368f0d752fb94022f219
+- amazonka-s3-2.0@sha256:e3143e11ab9e57ee0dfd9d1dd95a44c5b4a7d34af78c8f5b2e6c00afad118a02
+- amazonka-sso-2.0@sha256:902be13b604e4a3b51a9b8e1adc6a32f42322ae11f738a72a8c737b2d0a91a5e
+- amazonka-sts-2.0@sha256:5c721083e8d80883a893176de6105c27bbbd8176f467c27ac5f8d548a5e726d8
+- monomer-1.6.0.1@sha256:ebb40b3dacbef7f6758b96b7af5e0f0dfc30eb3f81331cca5196402dd11c0534,17587
+- nanovg-0.8.1.0
+- pcap-0.4.5.2
+- streaming-conduit-0.1.3.0
+- x509-1.7.7@sha256:90eef2d745a654146fc1c325e035eaddac531e4d2145d4bc1dcf4b8fad439d34,2276
+- github: jchia/hs-hdf5
+  commit: 3ceb3531ec7ca5c531327d142028fbfcc13ef2dd
+- github: jchia/streaming-lzma
+  commit: f33515b677b0b7b13b7be6cd670aa669a5fd3bf7
+- github: taffybar/taffybar
+  commit: f6110354b8c98361c99fb44ac3e007a4c9f3e44b
+- github: tusharad/langchain-hs
+  commit: ccf3caf3eff61b88e6e2e2e1390d6acac1ae431c
+- github: jchia/mcp
+  commit: 755b5c89f6b73984687442507503a89d562744a0
+- github: tusharad/ollama-haskell
+  commit: c46f7e62e02f4750447346f6ae21e23b16b125ae
+- github: serokell/universum
+  commit: 6f145b1510ee30ce1af305cb872ef3ca1ec9c2c1
